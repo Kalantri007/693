@@ -1,0 +1,25 @@
+===== DFS vs BFS Benchmark Summary =====
+
+DFS Algorithm:
+  Average Execution Time: 0.002688 seconds (±0.016727)
+  Average Memory Usage: 0.00 MB (±0.00)
+  Average Recommendations: 22.96 (±9.64)
+
+BFS Algorithm:
+  Average Execution Time: 0.000282 seconds (±0.000102)
+  Average Memory Usage: 0.00 MB (±0.00)
+  Average Recommendations: 23.66 (±9.72)
+
+Recommendation Similarity:
+  Average Jaccard Similarity: 0.9709 (±0.0783)
+  Min Similarity: 0.6875
+  Max Similarity: 1.0000
+
+Performance Comparison:
+  Execution Time: BFS is faster by 852.37%
+  Memory Usage: BFS uses less memory by nan%
+
+Recommendations:
+  For performance-critical applications where speed matters more than complete results, BFS may be preferred.
+  BFS typically provides more recommendations than DFS, potentially offering better coverage.
+  For social network recommendations where you want the most relevant friend suggestions, BFS is generally preferred as it explores by social distance.
