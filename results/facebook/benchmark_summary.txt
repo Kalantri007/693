@@ -1,0 +1,27 @@
+===== DFS vs BFS Benchmark Summary (Real Facebook Dataset) =====
+
+DFS Algorithm:
+  Average Execution Time: 0.001325 seconds (±0.006201)
+  Average Memory Usage: 0.01 MB (±0.04)
+  Average Recommendations: 564.34 (±316.28)
+
+BFS Algorithm:
+  Average Execution Time: 0.000606 seconds (±0.000374)
+  Average Memory Usage: 0.01 MB (±0.05)
+  Average Recommendations: 603.62 (±292.41)
+
+Recommendation Similarity:
+  Average Jaccard Similarity: 0.9151 (±0.1921)
+  Min Similarity: 0.1027
+  Max Similarity: 1.0000
+
+Performance Comparison:
+  Execution Time: BFS is faster by 118.73%
+  Memory Usage: DFS uses less memory by 48.84%
+
+Conclusions from Real Facebook Dataset:
+  - For the real-world Facebook network, BFS is faster than DFS, confirming our findings from the synthetic graph.
+  - This reinforces BFS as the preferred algorithm for friend recommendations in social networks.
+  - BFS provides more recommendations on average, offering better coverage of potential friends.
+  - The high similarity (91.51%) between DFS and BFS recommendations suggests
+    that both algorithms identify similar potential friends in real-world social networks.
